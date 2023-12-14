@@ -20,6 +20,6 @@ Liénard-Wiechert-Potential
 [ELECTRIC FORCE AND ELECTRIC CHARGE (rochester.edu)](http://teacher.pas.rochester.edu/phy122/lecture_notes/Chapter22/Chapter22.html)
 $E = \dfrac{F}{q}$
 ### Quantization of the electromagnetic field (EMF)
-[Lesson Video: The Quantization of Electromagnetic Radiation | Nagwa](https://www.nagwa.com/en/videos/497182585713/)
-[Electromagnetic field - Wikipedia](https://en.wikipedia.org/wiki/Electromagnetic_field)
-[ELECTRIC FORCE AND ELECTRIC CHARGE (rochester.edu)](http://teacher.pas.rochester.edu/phy122/lecture_notes/Chapter22/Chapter22.html)
+- [Lesson Video: The Quantization of Electromagnetic Radiation | Nagwa](https://www.nagwa.com/en/videos/497182585713/)
+- [Electromagnetic field - Wikipedia](https://en.wikipedia.org/wiki/Electromagnetic_field)
+- [ELECTRIC FORCE AND ELECTRIC CHARGE (rochester.edu)](http://teacher.pas.rochester.edu/phy122/lecture_notes/Chapter22/Chapter22.html)
