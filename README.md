@@ -1,5 +1,5 @@
 # Antenna simulation
-Project in Mathematica, testing my contrib, and myy
+Project in Mathematica, testing my contrib
 
 ## Sources
 [No, Changing Electric Fields DON'T Cause Magnetic Fields; The Real Origin of Electromagnetic Waves - YouTube](https://www.youtube.com/watch?v=uZnXhRgztEg)
