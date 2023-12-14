@@ -1,0 +1,24 @@
+(*Everything is one Mathematica notebook cell, so copy file content \
+into one*)
+(*Below some random spring animation*)
+hspring[a0_, x10_, x20_] := 
+  Module[{a = a0, x1 = x10, x2 = x20, n = 100}, h = (x2 - x1)/n;
+   xvalues = Table[k, {k, x1, x2, h}];
+   yvalues = Table[a Sin[m Pi/2], {m, 0, n}];
+   Line[Transpose@{xvalues, yvalues}]];
+
+vspring[a0_, y10_, y20_] := 
+  Module[{a = a0, y1 = y10, y2 = y20, n = 100}, h = (y2 - y1)/n;
+   yvalues = Table[k, {k, y1, y2, h}];
+   xvalues = Table[a Sin[m Pi/2], {m, 0, n}];
+   Line[Transpose@{xvalues, yvalues}]];
+
+Manipulate[
+ Graphics[{hspring[0.2, 0, Abs[2 Sin[x]]], Red, PointSize[0.03], 
+   Point[{Abs[2 Sin[x]], 0}]}, PlotRange -> {{0, 3}, {-1, 1}}], {x, 
+  0.01, 2 Pi, 0.1}]
+
+Manipulate[Graphics[{hspring[0.2, 0, Abs[2*Sin[x]]], Red, \
+PointSize[0.03], 
+    Point[{Abs[2*Sin[x]], 0}]}, PlotRange -> {{0, 3}, {-1, 1}}], 
+  {x, 0.01, 2*Pi, 0.1}]
